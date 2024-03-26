@@ -10,7 +10,7 @@ private:
     Warlock(Warlock const & obj);
     Warlock &operator=(Warlock const & obj);
 public:
-    Warlock(std::string name, std::string title);
+    Warlock(std::string const & name, std::string const & title);
     ~Warlock();
     std::string getName() const;
     std::string getTitle() const;
