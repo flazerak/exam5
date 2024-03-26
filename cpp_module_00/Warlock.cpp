@@ -22,11 +22,11 @@ Warlock &Warlock::operator=(Warlock const & obj)
     _title = obj._title;
     return *this;
 }
-std::string Warlock::getName() const
+std::string const & Warlock::getName() const
 {
     return _name;
 }
-std::string Warlock::getTitle() const
+std::string const & Warlock::getTitle() const
 {
     return _title;
 }
