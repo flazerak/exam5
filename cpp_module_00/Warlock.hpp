@@ -12,8 +12,8 @@ private:
 public:
     Warlock(std::string const & name, std::string const & title);
     ~Warlock();
-    std::string getName() const;
-    std::string getTitle() const;
+    std::string const & getName() const;
+    std::string const & getTitle() const;
     void setTitle(std::string const & title);
     void introduce() const;
 };
